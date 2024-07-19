@@ -1,0 +1,24 @@
+.section {
+  display: flex;
+  position: relative  ;
+  &__left-panel{
+    width: 70%;
+    overflow: hidden;
+  }
+  &__right-panel{
+    width: 30%;
+    position: relative;
+  }
+}
+
+.section-middle {
+  display: flex;
+  flex-direction: row;
+  &__left{
+    width: 50%;
+  }
+
+  &__right{
+    width: 50%;
+  }
+}

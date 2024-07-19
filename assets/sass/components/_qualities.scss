@@ -1,0 +1,15 @@
+.qualities {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  bottom: 0;
+  gap: 6px;
+  right: 30%;
+  top: 70%;
+  &__info{
+    padding: 1rem;
+    max-width: 8rem;
+    text-align: center;
+  }
+}

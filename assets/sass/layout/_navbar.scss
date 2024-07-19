@@ -1,0 +1,17 @@
+.nav{
+  display: flex;
+  flex-direction: row;
+  &__buttons{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid 1px #000;
+  }
+  &__list{
+    align-items: center;
+    list-style-type: none;
+    flex-direction: row;
+    display: flex;
+  }
+}

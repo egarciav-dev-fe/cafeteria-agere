@@ -1,0 +1,12 @@
+.nav{
+  justify-content: space-between;
+  &__list{
+    &__li{
+      margin-right: 2rem;
+      color: $spanish-gray;
+    }
+    &__img{
+      width: 3rem ;
+    }
+  }  
+}

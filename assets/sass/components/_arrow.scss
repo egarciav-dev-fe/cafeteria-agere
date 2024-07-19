@@ -1,0 +1,23 @@
+.arrow {
+  position: relative;
+  flex-grow: 1;
+  background-color: $coral;
+  height: 8rem;
+  width: 8rem; 
+  aspect-ratio: 1/1;
+
+  &__overlay {
+    position: absolute;
+    display: flex;
+    bottom: 2rem;
+    right: 1rem;
+    background-color: $light-red-achre;
+    color: $white;
+    font-size: $fs-xxxl;
+    font-weight: 800;
+    height: 100%;
+    aspect-ratio: 1/1;
+    justify-content: center;
+    align-items: center;
+  }
+}

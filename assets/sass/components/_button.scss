@@ -1,0 +1,18 @@
+.nav{
+  &__button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid 1px $spanish-gray;
+    padding: .75rem 1.5rem;
+    background-color: $white;
+    color: $spanish-gray;
+    font-family: $font-family-ptmono;
+    &--signup{
+            margin-left: 2rem;
+      border: solid 1px #000;
+      background-color: $shiny-shamrock;
+      color: $white;
+    }
+  }
+}
